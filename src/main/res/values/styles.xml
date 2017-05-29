@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    
+    <declare-styleable name="ArcView">
+        <attr name="acrColor" format="color"/>
+        <attr name="acrBackgroundDrawable" format="reference"/>
+        <attr name="acrCenterDrawable" format="reference" />
+        <attr name="acrProgress" format="integer"/>
+        <attr name="acrMax" format="integer"/>
+        <attr name="showPrecent" format="boolean"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color|reference" />
+    </declare-styleable>
+
+</resources>
